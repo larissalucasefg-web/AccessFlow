@@ -1,0 +1,149 @@
+/* ===================================
+   RESET & CONFIGURAÇÕES GERAIS
+====================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #F4F1FF;
+    color: #2E1065;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* ===================================
+   CONTAINER PRINCIPAL
+====================================== */
+.login-container {
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 420px;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(124, 58, 237, 0.1);
+    border: 1px solid #DDD6FE;
+    text-align: center;
+}
+
+.login-container h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #7C3AED;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+}
+
+.subtitle {
+    font-size: 0.95rem;
+    color: #687280;
+    margin-bottom: 28px;
+}
+
+/* ===================================
+   FORMULÁRIO E INPUTS
+====================================== */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    text-align: left;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.input-group label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #2E1065;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1.5px solid #DDD6FE;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.95rem;
+    color: #2E1065;
+    background-color: #F4F1FF;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.input-group input::placeholder {
+    color: #9CA3AF;
+}
+
+.input-group input:focus {
+    border-color: #7C3AED;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.15);
+}
+
+/* ===================================
+   BOTÃO
+====================================== */
+.btn-primary {
+    width: 100%;
+    padding: 14px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #7C3AED;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #6D28D9;
+    box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
+    transform: translateY(-1px);
+}
+
+/* ===================================
+   LINKS DO FOOTER
+====================================== */
+.footer-links {
+    margin-top: 24px;
+    font-size: 0.875rem;
+    color: #687280;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.footer-links a {
+    color: #7C3AED;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: #6D28D9;
+    text-decoration: underline;
+}
+
+/* ===================================
+   RESPONSIVIDADE
+====================================== */
+@media (max-width: 480px) {
+    .login-container {
+        padding: 30px 20px;
+    }
+}

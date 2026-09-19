@@ -1,0 +1,28 @@
+/* Importa todos os estilos base do style.css */
+@import url('./style.css');
+
+/* Reutilização dos estilos com ajuste de tamanho para o container do cadastro */
+.register-container {
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 460px;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(124, 58, 237, 0.1);
+    border: 1px solid #DDD6FE;
+    text-align: center;
+}
+
+.register-container h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #7C3AED;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+}
+
+@media (max-width: 480px) {
+    .register-container {
+        padding: 30px 20px;
+    }
+}
