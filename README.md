@@ -42,22 +42,6 @@ AccessFlow/
       <img src="./src/tela_cadastro.png" alt="Tela de Cadastro" width="100%"/>
     </td>
   </tr>
-  <tr>
-    <td align="center" width="50%">
-      <b>Tela home </b><br><br>
-      <img src="./src/pagina_home.png" alt="Imagem 3" width="100%"/>
-    </td>
-    <td align="center" width="50%">
-      <b>Tela de sucesso</b><br><br>
-      <img src="./src/tela_de_sucesso.png" alt="Imagem 4" width="100%"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">
-      <b>Tela de erro</b><br><br>
-      <img src="./src/tela_erro.png" alt="Imagem 5" width="50%"/>
-    </td>
-  </tr>
 </table>
 
 ## 👨‍💻 Autor
